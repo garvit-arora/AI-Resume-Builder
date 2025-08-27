@@ -20,8 +20,8 @@ function handlePortfolio(){
 function Footer() {
   return (
     <>
-      <div className="bg-white b-0 items-center h-60">
-        <div className="flex">
+      <div className="bg-white b-0  items-center h-60">
+        <div className="flex items-center text-center justify-center">
           <h1 className="text-8xl font-bold">
             Made By <span className="font-extrabold">Garvit Arora</span> with l
           </h1>
