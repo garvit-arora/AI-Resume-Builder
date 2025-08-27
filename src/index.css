@@ -1,0 +1,36 @@
+@import "tailwindcss";
+body{
+  background-color: #212121;
+}
+.updown{
+  animation: updown 1s infinite alternate;
+}
+@keyframes updown {
+  from{
+    transform: translateY(-20px);
+  }
+  to{
+    transform: translateY(0px);
+  }
+}
+.cards{
+  animation: cards 3s forwards;
+}
+@keyframes cards {
+  from{
+    transform:translateX(-10px);
+  }
+  to{
+    transform: translateX(0px);
+  }
+}
+@keyframes marquee {
+  0% { transform: translateX(100%); }
+  100% { transform: translateX(-100%); }
+}
+
+.animate-marquee {
+  display: flex;
+  animation: marquee 8s linear infinite;
+  
+}
