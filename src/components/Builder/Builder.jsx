@@ -27,6 +27,7 @@ function Builder() {
       },
     ],
   };
+  
   const generateResume = async () => {
     setLoading(true);
     try {
@@ -35,7 +36,7 @@ function Builder() {
         {
           contents: [
             {
-              role: "user", // 👈 this was missing
+              role: "user",
               parts: [
                 {
                   text: `Generate a professional ATS-friendly resume in plain text format using the following data: ${JSON.stringify(
