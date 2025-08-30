@@ -183,7 +183,6 @@ function Builder() {
       }
     />
 
-    {/* ✅ Checkbox for "currently working here" */}
     <label className="flex items-center mt-2">
       <input
         type="checkbox"
